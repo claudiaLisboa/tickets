@@ -14,7 +14,7 @@ ul,
 td {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 20px;
 }
 
 pre {
@@ -24,11 +24,11 @@ pre {
 }
 
 a {
-    color: #000;
+    color: #002D62;
 }
 
 a:visited {
-    color: #666;
+    color: #318CE7;
 }
 
 a:hover {

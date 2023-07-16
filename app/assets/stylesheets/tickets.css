@@ -1,0 +1,203 @@
+ /* All the styles related to the Tickets controller here. */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color:#080C09;
+    background-color: #F8F9F1;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+
+table {
+    margin: 2em auto;
+    border-collapse: collapse;
+    border-bottom: 2px solid #F7CE5B;;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+        0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-color: white;
+
+    tr {
+        &:hover {
+            background: gray;
+
+            td {
+                color:#080C09;
+                background: #F8F9F1;
+            }
+        }
+        height: 2em;
+        background: white;
+    }
+
+    th,
+    td {
+        color: #999;
+        padding: 2em 20px;
+        border-collapse: collapse;
+        background-color: white;
+        font-size: 16px;
+    }
+
+    th {
+        background: #384D48;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+
+        &.last {
+            border-right: none;
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    margin: 2em auto;
+}
+
+.nav {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/* Style buttons */
+.btn-passive {
+    border: none;
+    color: #080C09;
+    padding: 12px 16px;
+    margin: 0 0 0 0.2em;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-action {
+    background-color: #F7CE5B;
+    border-radius: 5px;
+    border: none;
+    color: #080C09;
+    padding: 12px 16px;
+    margin: 0 0 0 0.2em;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-buy:visited,
+.btn-back:visited,
+.btn-passive:visited {
+    color: #00308F;
+}
+
+.btn-cancel:visited {
+    color: #F8F9F1;
+}
+
+.btn-back {
+    border: none;
+    padding: 12px 16px;
+    margin: 0 0 0 0.2em;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #384D48;
+    border-radius: 5px;
+}
+
+.btn-buy {
+    background-color: #F7CE5B;
+    border-radius: 5px;
+    border: none;
+    padding: 0.8em 2em;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-cancel {
+    background-color: #DA1B3E;
+    border-radius: 5px;
+    border: none;
+    padding: 0.8em 2em;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #F8F9F1;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 1em;
+    border:2px solid #00308F;
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+    background-color: #384D48;
+    border-radius: 5px;
+    color: #F8F9F1;
+}
+
+.btn-passive:hover {
+    background-color: #384D48;
+    border-radius: 5px;
+    color: #F8F9F1;
+}
+
+
+.icon-user {
+    margin: 0 0 0 2em;
+}
+
+.form {
+    margin: 2em auto;
+}
+
+input[type=submit] {
+    background-color: #F7CE5B;
+    border-radius: 5px;
+    border: none;
+    color: #080C09;
+    padding: 12px 16px;
+    margin: 0 0 0 0.2em;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    background-color: #384D48;
+    border-radius: 5px;
+    color: #F8F9F1;
+}
+
+.alert {
+    color: #DA1B3E;
+}
+
+.notice {
+    color: #9ECE27;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    margin: 0.5em 0.5em;
+}
+
+a:hover {
+    letter-spacing: 0.1em;
+    background-color: #F8F9F1;
+    color: #034694;
+}
