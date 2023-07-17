@@ -1,7 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# `Tickets Platform using Ruby on Rails`
+
+### `Created by Claudia Lisboa - For studying purpose`
+
+#########################################
+
+### `Content viewed with this project :`
+
+-
+-
+-
+-
 
 Things you may want to cover:
 
