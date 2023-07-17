@@ -57,13 +57,8 @@ table {
 
 h1 {
     text-align: center;
-    font-size: 5em;
-    margin: 2em auto;
-}
-
-.nav {
-    text-align: right;
-    text-transform: uppercase;
+    font-size: 3em;
+    margin: 1em auto;
 }
 
 /* Style buttons */
@@ -89,7 +84,6 @@ h1 {
     text-decoration: none;
 }
 
-.btn-buy:visited,
 .btn-back:visited,
 .btn-passive:visited {
     color: #00308F;
